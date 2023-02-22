@@ -17,8 +17,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
             Thread.sleep(2000);
 //        now navigate to facebook.com
             driver.navigate().to("https://www.facebook.com/");
+            
 //        slow down
-            Thread.sleep(2000);
+
 //        go back
             driver.navigate().back();
             //        slow down
